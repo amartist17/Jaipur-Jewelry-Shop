@@ -6,6 +6,7 @@ router.get("/", viewController.home);
 router.get("/about", viewController.about);
 router.get("/contact", viewController.contact);
 router.get("/shop", viewController.shop);
+router.get("/blogs", viewController.blogs);
 router.get("/login", viewController.login);
 
 

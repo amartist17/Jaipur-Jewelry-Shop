@@ -9,5 +9,5 @@ const mongoose = require("mongoose");
 //   .then(() => console.log("Connection established"));
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log("listening");
+  console.log("listening on http://127.0.0.1:3000/");
 });

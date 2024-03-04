@@ -16,3 +16,7 @@ exports.shop = async (req, res, next) => {
 exports.login = async (req, res, next) => {
   res.status(200).render('login');
 };
+
+exports.blogs = async (req, res, next) => {
+  res.status(200).render("blogs");
+};
